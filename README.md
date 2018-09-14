@@ -23,12 +23,12 @@ from smartmonkey.client import (Client)
 
 # Define the vehicles
 vehicles = [{
-    'id': 'Vehicle',
+    'id': 'My Fancy Vehicle',
     'start': {'lat': 1.23, 'lng': 1.42},
     'end': {'lat': 1.24, 'lng': 1.42},
     'capacity': [20],
     'timewindow': [36000, 68400],
-    'provides': ['coal', 'fuel']
+    'provides': ['candy', 'sushi']
 }]
 
 # Define the services
@@ -40,8 +40,19 @@ services = [{
     'timewindows': [[36000, 68400]],
     'duration': 3600,
     'reward': 100,
-    'optional': True,
-    'requires': ['fuel'],
+    'optional': False,
+    'requires': ['candy'],
+},
+{
+    'id': 'Sushi shop',
+    'location': {'lat': 2.234, 'lng': 8.324},
+    'size': [1],
+    'capacity': [14],
+    'timewindows': [[36000, 68400]],
+    'duration': 3600,
+    'reward': 50,
+    'optional': Falsed,
+    'requires': ['sushi'],
 }]
 
 # Setup client: You NEED to set the key in the following line
