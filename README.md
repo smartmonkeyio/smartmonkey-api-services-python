@@ -51,7 +51,7 @@ services = [{
     'timewindows': [[36000, 68400]],
     'duration': 3600,
     'reward': 50,
-    'optional': Falsed,
+    'optional': False,
     'requires': ['sushi'],
 }]
 
