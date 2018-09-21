@@ -7,6 +7,7 @@ from smartmonkey.models import (
 import threading
 import time
 import sys
+import json
 
 
 class Spinner:
@@ -58,6 +59,10 @@ if __name__ == "__main__":
     spinner.stop()
     vehicle_n = raw_input("* Number of vehicles: ")
     services_n = raw_input("* Number of stops: ")
+
+    
+    with open('data.json') as f:
+        data = json.load(f)
     # vehicles = [
     #     Vehicle({
     #         "id": math.random(),
