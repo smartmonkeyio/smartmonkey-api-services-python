@@ -6,7 +6,7 @@
             "city": "Washington",
             "state": "DC",
             "postalCode": "20020",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.867033,
                 "lng": -76.979235
             }
@@ -17,7 +17,7 @@
             "city": "Louisville",
             "state": "KY",
             "postalCode": "40219",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.1343013,
                 "lng": -85.6498512
             }
@@ -28,7 +28,7 @@
             "city": "Grass Valley",
             "state": "CA",
             "postalCode": "95945",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.213076,
                 "lng": -121.077583
             }
@@ -39,7 +39,7 @@
             "city": "Manchester",
             "state": "CT",
             "postalCode": "06040",
-            "coordinates": {
+            "coordinate": {
                 "lat": 41.76556000000001,
                 "lng": -72.473091
             }
@@ -50,7 +50,7 @@
             "city": "Louisville",
             "state": "KY",
             "postalCode": "40206",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.263793,
                 "lng": -85.700243
             }
@@ -61,7 +61,7 @@
             "city": "Essex",
             "state": "VT",
             "postalCode": "05452",
-            "coordinates": {
+            "coordinate": {
                 "lat": 44.492953,
                 "lng": -73.101883
             }
@@ -72,7 +72,7 @@
             "city": "Vallejo",
             "state": "CA",
             "postalCode": "94591",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.10476999999999,
                 "lng": -122.193849
             }
@@ -83,7 +83,7 @@
             "city": "Glendale",
             "state": "AZ",
             "postalCode": "85306",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.6152469,
                 "lng": -112.179737
             }
@@ -94,7 +94,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37209",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.157077,
                 "lng": -86.853827
             }
@@ -105,7 +105,7 @@
             "city": "Glendale",
             "state": "AZ",
             "postalCode": "85305",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.5404296,
                 "lng": -112.2488391
             }
@@ -116,7 +116,7 @@
             "city": "Louisville",
             "state": "KY",
             "postalCode": "40208",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.218107,
                 "lng": -85.779006
             }
@@ -127,7 +127,7 @@
             "city": "Arvada",
             "state": "CO",
             "postalCode": "80003",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.814056,
                 "lng": -105.046913
             }
@@ -138,7 +138,7 @@
             "city": "West Windsor",
             "state": "VT",
             "postalCode": "05037",
-            "coordinates": {
+            "coordinate": {
                 "lat": 43.4731793,
                 "lng": -72.4967532
             }
@@ -149,7 +149,7 @@
             "city": "Manchester",
             "state": "CT",
             "postalCode": "06040",
-            "coordinates": {
+            "coordinate": {
                 "lat": 41.7409259,
                 "lng": -72.5619104
             }
@@ -160,7 +160,7 @@
             "city": "Yarmouth",
             "state": "MA",
             "postalCode": "02664",
-            "coordinates": {
+            "coordinate": {
                 "lat": 41.697168,
                 "lng": -70.189992
             }
@@ -171,7 +171,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37206",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.1719075,
                 "lng": -86.740228
             }
@@ -182,7 +182,7 @@
             "city": "Fayetteville",
             "state": "AR",
             "postalCode": "72704",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.084563,
                 "lng": -94.206082
             }
@@ -193,7 +193,7 @@
             "city": "Montgomery",
             "state": "AL",
             "postalCode": "36108",
-            "coordinates": {
+            "coordinate": {
                 "lat": 32.296422,
                 "lng": -86.34280299999999
             }
@@ -204,7 +204,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37076",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.208114,
                 "lng": -86.58621199999999
             }
@@ -215,7 +215,7 @@
             "city": "Salinas",
             "state": "CA",
             "postalCode": "93908",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.602449,
                 "lng": -121.699071
             }
@@ -226,7 +226,7 @@
             "city": "Fayetteville",
             "state": "AR",
             "postalCode": "72704",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.0807929,
                 "lng": -94.2066449
             }
@@ -237,7 +237,7 @@
             "city": "Fayetteville",
             "state": "AR",
             "postalCode": "72703",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.0919353,
                 "lng": -94.10654219999999
             }
@@ -248,7 +248,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37211",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.0618539,
                 "lng": -86.738508
             }
@@ -259,7 +259,7 @@
             "city": "Montgomery",
             "state": "AL",
             "postalCode": "36111",
-            "coordinates": {
+            "coordinate": {
                 "lat": 32.341227,
                 "lng": -86.2846859
             }
@@ -270,7 +270,7 @@
             "city": "Savannah",
             "state": "GA",
             "postalCode": "31415",
-            "coordinates": {
+            "coordinate": {
                 "lat": 32.067416,
                 "lng": -81.125331
             }
@@ -281,7 +281,7 @@
             "city": "Anchorage",
             "state": "AK",
             "postalCode": "99503",
-            "coordinates": {
+            "coordinate": {
                 "lat": 61.203115,
                 "lng": -149.894107
             }
@@ -292,7 +292,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37013",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.080049,
                 "lng": -86.60116099999999
             }
@@ -303,7 +303,7 @@
             "city": "Manchester",
             "state": "CT",
             "postalCode": "06042",
-            "coordinates": {
+            "coordinate": {
                 "lat": 41.7909099,
                 "lng": -72.51195129999999
             }
@@ -314,7 +314,7 @@
             "city": "O'Neals",
             "state": "CA",
             "postalCode": "93645",
-            "coordinates": {
+            "coordinate": {
                 "lat": 37.153463,
                 "lng": -119.648192
             }
@@ -325,7 +325,7 @@
             "city": "Washington",
             "state": "DC",
             "postalCode": "20001",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.9149499,
                 "lng": -77.01170259999999
             }
@@ -336,7 +336,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37203",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.1404897,
                 "lng": -86.7695179
             }
@@ -347,7 +347,7 @@
             "city": "Louisville",
             "state": "KY",
             "postalCode": "40214",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.142768,
                 "lng": -85.7717132
             }
@@ -358,7 +358,7 @@
             "city": "Crofton",
             "state": "MD",
             "postalCode": "21114",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.019306,
                 "lng": -76.660653
             }
@@ -369,7 +369,7 @@
             "city": "Deale",
             "state": "MD",
             "postalCode": "20751",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.784451,
                 "lng": -76.54125499999999
             }
@@ -380,7 +380,7 @@
             "city": "Agawam",
             "state": "MA",
             "postalCode": "01001",
-            "coordinates": {
+            "coordinate": {
                 "lat": 42.0894922,
                 "lng": -72.6297558
             }
@@ -391,7 +391,7 @@
             "city": "Norman",
             "state": "OK",
             "postalCode": "73071",
-            "coordinates": {
+            "coordinate": {
                 "lat": 35.183319,
                 "lng": -97.40210499999999
             }
@@ -402,7 +402,7 @@
             "city": "Foresthill",
             "state": "CA",
             "postalCode": "95631",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.989466,
                 "lng": -120.883108
             }
@@ -413,7 +413,7 @@
             "city": "Glendale",
             "state": "AZ",
             "postalCode": "85306",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.6204899,
                 "lng": -112.18702
             }
@@ -424,7 +424,7 @@
             "city": "Washington",
             "state": "DC",
             "postalCode": "20011",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.9582381,
                 "lng": -77.0244287
             }
@@ -435,7 +435,7 @@
             "city": "Washington",
             "state": "DC",
             "postalCode": "20016",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.9256252,
                 "lng": -77.0982646
             }
@@ -446,7 +446,7 @@
             "city": "Westmore",
             "state": "VT",
             "postalCode": "05860",
-            "coordinates": {
+            "coordinate": {
                 "lat": 44.771005,
                 "lng": -72.048664
             }
@@ -457,7 +457,7 @@
             "city": "Norman",
             "state": "OK",
             "postalCode": "73071",
-            "coordinates": {
+            "coordinate": {
                 "lat": 35.177281,
                 "lng": -97.411869
             }
@@ -467,7 +467,7 @@
             "address2": "",
             "state": "VT",
             "postalCode": "05753",
-            "coordinates": {
+            "coordinate": {
                 "lat": 43.9727945,
                 "lng": -73.1023187
             }
@@ -478,7 +478,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37211",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.030927,
                 "lng": -86.71949099999999
             }
@@ -489,7 +489,7 @@
             "city": "Manchester",
             "state": "CT",
             "postalCode": "06042",
-            "coordinates": {
+            "coordinate": {
                 "lat": 41.7906813,
                 "lng": -72.53559729999999
             }
@@ -500,7 +500,7 @@
             "city": "Glen Burnie",
             "state": "MD",
             "postalCode": "21061",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.1425931,
                 "lng": -76.6238441
             }
@@ -511,7 +511,7 @@
             "city": "Louisville",
             "state": "KY",
             "postalCode": "40258",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.1286407,
                 "lng": -85.8678042
             }
@@ -522,7 +522,7 @@
             "city": "Methuen",
             "state": "MA",
             "postalCode": "01844",
-            "coordinates": {
+            "coordinate": {
                 "lat": 42.759847,
                 "lng": -71.157721
             }
@@ -533,7 +533,7 @@
             "city": "Brentwood",
             "state": "TN",
             "postalCode": "37027",
-            "coordinates": {
+            "coordinate": {
                 "lat": 35.998892,
                 "lng": -86.696529
             }
@@ -544,7 +544,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37211",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.10436,
                 "lng": -86.74411599999999
             }
@@ -555,7 +555,7 @@
             "city": "Washington",
             "state": "DC",
             "postalCode": "20003",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.887255,
                 "lng": -76.98318499999999
             }
@@ -566,7 +566,7 @@
             "city": "Glendale",
             "state": "AZ",
             "postalCode": "85308",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.650988,
                 "lng": -112.180624
             }
@@ -577,7 +577,7 @@
             "city": "Fayetteville",
             "state": "AR",
             "postalCode": "72704",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.05233310000001,
                 "lng": -94.2056987
             }
@@ -588,7 +588,7 @@
             "city": "Baltimore",
             "state": "MD",
             "postalCode": "21225",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.221978,
                 "lng": -76.614183
             }
@@ -599,7 +599,7 @@
             "city": "Burlington",
             "state": "VT",
             "postalCode": "05401",
-            "coordinates": {
+            "coordinate": {
                 "lat": 44.4729749,
                 "lng": -73.2026566
             }
@@ -610,7 +610,7 @@
             "city": "Anchorage",
             "state": "AK",
             "postalCode": "99503",
-            "coordinates": {
+            "coordinate": {
                 "lat": 61.203221,
                 "lng": -149.898655
             }
@@ -621,7 +621,7 @@
             "city": "Alburgh",
             "state": "VT",
             "postalCode": "05440",
-            "coordinates": {
+            "coordinate": {
                 "lat": 44.995827,
                 "lng": -73.2201539
             }
@@ -632,7 +632,7 @@
             "city": "Manchester",
             "state": "CT",
             "postalCode": "06040",
-            "coordinates": {
+            "coordinate": {
                 "lat": 41.7800126,
                 "lng": -72.5754309
             }
@@ -643,7 +643,7 @@
             "city": "Santa Cruz",
             "state": "CA",
             "postalCode": "95060",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.950901,
                 "lng": -122.046881
             }
@@ -654,7 +654,7 @@
             "city": "Glen Burnie",
             "state": "MD",
             "postalCode": "21061",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.191982,
                 "lng": -76.6525659
             }
@@ -665,7 +665,7 @@
             "city": "Pasadena",
             "state": "MD",
             "postalCode": "21122",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.110409,
                 "lng": -76.46565799999999
             }
@@ -676,7 +676,7 @@
             "city": "Grand Junction",
             "state": "CO",
             "postalCode": "81504",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.07548999999999,
                 "lng": -108.474785
             }
@@ -687,7 +687,7 @@
             "city": "Arvada",
             "state": "CO",
             "postalCode": "80004",
-            "coordinates": {
+            "coordinate": {
                 "lat": 39.8267078,
                 "lng": -105.1366798
             }
@@ -698,7 +698,7 @@
             "city": "Holyoke",
             "state": "MA",
             "postalCode": "01040",
-            "coordinates": {
+            "coordinate": {
                 "lat": 42.2041219,
                 "lng": -72.5977704
             }
@@ -709,7 +709,7 @@
             "city": "Fayetteville",
             "state": "AR",
             "postalCode": "72701",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.0471975,
                 "lng": -94.0946286
             }
@@ -720,7 +720,7 @@
             "city": "Manchester",
             "state": "CT",
             "postalCode": "06040",
-            "coordinates": {
+            "coordinate": {
                 "lat": 41.756758,
                 "lng": -72.493501
             }
@@ -731,7 +731,7 @@
             "city": "Panama City",
             "state": "FL",
             "postalCode": "32405",
-            "coordinates": {
+            "coordinate": {
                 "lat": 30.2207276,
                 "lng": -85.6808795
             }
@@ -742,7 +742,7 @@
             "city": "Savannah",
             "state": "GA",
             "postalCode": "31419",
-            "coordinates": {
+            "coordinate": {
                 "lat": 32.0243075,
                 "lng": -81.2468102
             }
@@ -753,7 +753,7 @@
             "city": "Glendale",
             "state": "AZ",
             "postalCode": "85308",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.676018,
                 "lng": -112.201658
             }
@@ -764,7 +764,7 @@
             "city": "Anchorage",
             "state": "AK",
             "postalCode": "99518",
-            "coordinates": {
+            "coordinate": {
                 "lat": 61.15288690000001,
                 "lng": -149.889133
             }
@@ -775,7 +775,7 @@
             "city": "Union City",
             "state": "CA",
             "postalCode": "94587",
-            "coordinates": {
+            "coordinate": {
                 "lat": 37.593981,
                 "lng": -122.059762
             }
@@ -786,7 +786,7 @@
             "city": "Glendale",
             "state": "AZ",
             "postalCode": "85305",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.515353,
                 "lng": -112.240812
             }
@@ -797,7 +797,7 @@
             "city": "Anchorage",
             "state": "AK",
             "postalCode": "99504",
-            "coordinates": {
+            "coordinate": {
                 "lat": 61.215882,
                 "lng": -149.737337
             }
@@ -808,7 +808,7 @@
             "city": "Panama City",
             "state": "FL",
             "postalCode": "32401",
-            "coordinates": {
+            "coordinate": {
                 "lat": 30.1527033,
                 "lng": -85.63207129999999
             }
@@ -819,7 +819,7 @@
             "city": "Easton",
             "state": "MA",
             "postalCode": "02375",
-            "coordinates": {
+            "coordinate": {
                 "lat": 42.0505989,
                 "lng": -71.08029379999999
             }
@@ -830,7 +830,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37013",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.0370847,
                 "lng": -86.6413728
             }
@@ -841,7 +841,7 @@
             "city": "Savannah",
             "state": "GA",
             "postalCode": "31405",
-            "coordinates": {
+            "coordinate": {
                 "lat": 32.034987,
                 "lng": -81.121928
             }
@@ -852,7 +852,7 @@
             "city": "Nashville",
             "state": "TN",
             "postalCode": "37211",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.02419100000001,
                 "lng": -86.718305
             }
@@ -862,7 +862,7 @@
             "address2": "",
             "state": "VT",
             "postalCode": "05443",
-            "coordinates": {
+            "coordinate": {
                 "lat": 44.1710043,
                 "lng": -73.1065617
             }
@@ -873,7 +873,7 @@
             "city": "Chester",
             "state": "VT",
             "postalCode": "05143",
-            "coordinates": {
+            "coordinate": {
                 "lat": 43.224335,
                 "lng": -72.54227399999999
             }
@@ -884,7 +884,7 @@
             "city": "Bakersfield",
             "state": "CA",
             "postalCode": "93311",
-            "coordinates": {
+            "coordinate": {
                 "lat": 35.2930007,
                 "lng": -119.1225908
             }
@@ -895,7 +895,7 @@
             "city": "Montgomery",
             "state": "AL",
             "postalCode": "36109",
-            "coordinates": {
+            "coordinate": {
                 "lat": 32.383322,
                 "lng": -86.235124
             }
@@ -906,7 +906,7 @@
             "city": "Glendale",
             "state": "AZ",
             "postalCode": "85301",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.53433,
                 "lng": -112.2011246
             }
@@ -917,7 +917,7 @@
             "city": "Castro Valley",
             "state": "CA",
             "postalCode": "94546",
-            "coordinates": {
+            "coordinate": {
                 "lat": 37.70382,
                 "lng": -122.091054
             }
@@ -928,7 +928,7 @@
             "city": "Annapolis",
             "state": "MD",
             "postalCode": "21403",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.936881,
                 "lng": -76.475823
             }
@@ -939,7 +939,7 @@
             "city": "Fayetteville",
             "state": "AR",
             "postalCode": "72704",
-            "coordinates": {
+            "coordinate": {
                 "lat": 36.0867,
                 "lng": -94.229754
             }
@@ -950,7 +950,7 @@
             "city": "Manchester",
             "state": "CT",
             "postalCode": "06040",
-            "coordinates": {
+            "coordinate": {
                 "lat": 41.7762171,
                 "lng": -72.5410548
             }
@@ -961,7 +961,7 @@
             "city": "Fort Collins",
             "state": "CO",
             "postalCode": "80526",
-            "coordinates": {
+            "coordinate": {
                 "lat": 40.554586,
                 "lng": -105.087852
             }
@@ -972,7 +972,7 @@
             "city": "Louisville",
             "state": "KY",
             "postalCode": "40218",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.1977059,
                 "lng": -85.675288
             }
@@ -983,7 +983,7 @@
             "city": "Panama City Beach",
             "state": "FL",
             "postalCode": "32408",
-            "coordinates": {
+            "coordinate": {
                 "lat": 30.163458,
                 "lng": -85.785449
             }
@@ -994,7 +994,7 @@
             "city": "Anchorage",
             "state": "AK",
             "postalCode": "99504",
-            "coordinates": {
+            "coordinate": {
                 "lat": 61.1908348,
                 "lng": -149.7340096
             }
@@ -1005,7 +1005,7 @@
             "city": "Anchorage",
             "state": "AK",
             "postalCode": "99502",
-            "coordinates": {
+            "coordinate": {
                 "lat": 61.1409305,
                 "lng": -149.9437822
             }
@@ -1016,7 +1016,7 @@
             "city": "Anchorage",
             "state": "AK",
             "postalCode": "99501",
-            "coordinates": {
+            "coordinate": {
                 "lat": 61.230336,
                 "lng": -149.883795
             }
@@ -1027,7 +1027,7 @@
             "city": "Glendale",
             "state": "AZ",
             "postalCode": "85301",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.5279666,
                 "lng": -112.2022551
             }
@@ -1038,7 +1038,7 @@
             "city": "Savannah",
             "state": "GA",
             "postalCode": "31406",
-            "coordinates": {
+            "coordinate": {
                 "lat": 31.9901877,
                 "lng": -81.1070672
             }
@@ -1049,7 +1049,7 @@
             "city": "Washington",
             "state": "DC",
             "postalCode": "20012",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.969351,
                 "lng": -77.009722
             }
@@ -1060,7 +1060,7 @@
             "city": "Carson",
             "state": "CA",
             "postalCode": "90810",
-            "coordinates": {
+            "coordinate": {
                 "lat": 33.8272706,
                 "lng": -118.2302826
             }
@@ -1071,7 +1071,7 @@
             "city": "Washington",
             "state": "DC",
             "postalCode": "20003",
-            "coordinates": {
+            "coordinate": {
                 "lat": 38.886615,
                 "lng": -76.9845349
             }
@@ -1082,7 +1082,7 @@
             "city": "Panama City",
             "state": "FL",
             "postalCode": "32413",
-            "coordinates": {
+            "coordinate": {
                 "lat": 30.281084,
                 "lng": -85.9677169
             }

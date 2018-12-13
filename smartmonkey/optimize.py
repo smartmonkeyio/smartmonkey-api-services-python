@@ -5,14 +5,15 @@ from smartmonkey.models import (
     RewardRegion,
     CallbackConfiguration,
     OptimizeQuery,
+    Options,
     ResultQuery,
 )
 
 
-def optimize(client, vehicles, services, reward_region=[], synchronous=True, callback=None):
+def optimize(client, vehicles, services, reward_region=[], options=None, synchronous=True, callback=None):
     """Launch a Smartmonkey route optimization given a list of vehicles and services.
 
-    This example provides two services and one vehicle to the optimization::
+    This example provides two services and one vehicle to the optimization:
 
         vehicles = [
             {
@@ -104,6 +105,9 @@ def optimize(client, vehicles, services, reward_region=[], synchronous=True, cal
         must contain 'lat', 'lng', 'radius', and 'reward'. 
     :type reward_region: list
 
+    :param options: Dictionary with optimization configuration options
+    :type options: dictionary
+
     :param synchronous: *(default True)* If synchronous is set to True, the request
         will still alive until the optimization ends. If set to false it will
         return a job id.
@@ -126,13 +130,16 @@ def optimize(client, vehicles, services, reward_region=[], synchronous=True, cal
     vehicles_s = [Vehicle(vehicle) for vehicle in vehicles]
     services_s = [Service(service) for service in services]
     reward_region_s = [RewardRegion(rr) for rr in reward_region]
+    options_s = None
+    if options is not None:
+        options_s = Options(options)
     configuration = CallbackConfiguration({
         "wait": synchronous,
         "callback": callback,
     })
 
     query = OptimizeQuery(vehicles_s, services_s,
-                          reward_region_s, configuration)
+                          reward_region_s, options_s, configuration)
     return client._request(query)
 
 
