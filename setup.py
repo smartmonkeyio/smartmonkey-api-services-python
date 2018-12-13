@@ -14,7 +14,7 @@ requirements = [
 ]
 
 setup(name='smartmonkey',
-      version='0.0.1',
+      version='0.0.2',
       description='Python client for Smartmonkey API Web Services',
       scripts=[],
       url='', #TODO: Include repo url
