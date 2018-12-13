@@ -9,6 +9,12 @@ Python Client for SmartMonkey Services
 ## Installation
 
     $ pip install -U smartmonkey
+
+### Install from sources
+
+    $ git clone https://github.com/smartmonkeyio/smartmonkey-api-services-python.git
+    $ cd smartmonkey-api-services-python
+    $ python setup.py install
     
 ## Developer Documentation
 

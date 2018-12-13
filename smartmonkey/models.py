@@ -41,6 +41,12 @@ class RewardRegion(Serializable):
             "reward": float,
         }
 
+class Options(Serializable):
+    class Meta:
+        schema = {
+            "max_wait_time?": int
+        }
+
 class CallbackConfiguration(Serializable):
     class Meta:
         schema = {
@@ -61,13 +67,15 @@ class OptimizeQuery(Serializable, Query):
             "vehicles": [Vehicle],
             "services": [Service],
             "reward_region?": [RewardRegion],
+            "options?": Options,
             "configuration": CallbackConfiguration,
         }
 
-    def __init__(self, vehicles, services, reward_region, configuration):
+    def __init__(self, vehicles, services, reward_region, options, configuration):
         self.vehicles = vehicles
         self.services = services
         self.reward_region = reward_region
+        self.options = options
         self.configuration = configuration
     
     def url(self):

@@ -82,10 +82,10 @@ if __name__ == "__main__":
         ]
 
         # Start optimization
-        print(vehicles)
-        print(services)
+        print("Optimizing ")
         spinner.start()
-        optimized_route = client.optimize(vehicles, services, synchronous=True)
+        print(client.optimize)
+        optimized_route = client.optimize(vehicles, services, options={'max_wait_time': 300}, synchronous=True)
         spinner.stop()
         # Print optimized route
         print(optimized_route)
