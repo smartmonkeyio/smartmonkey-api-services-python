@@ -19,6 +19,16 @@ class Vehicle(Serializable):
             "provides?": [str],
         }
 
+class PickUp(Serializable):
+    class Meta:
+        schema = {
+            "id?": str,
+            "location": LatLng,
+            "duration?": int,
+            "timewindows?": [list],
+            "size?": [int],
+        }
+
 class Service(Serializable):
     class Meta:
         schema = {
@@ -30,6 +40,7 @@ class Service(Serializable):
             "reward?": float,
             "optional?": bool,
             "requires?": [str],
+            "pickups?": [PickUp]
         }
 
 class RewardRegion(Serializable):

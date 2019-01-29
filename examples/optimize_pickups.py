@@ -77,13 +77,17 @@ if __name__ == "__main__":
                 "id": str("Service {}".format(i)),
                 "location": random.choice(addresses)['coordinate'],
                 "size": [random.randint(1, 2)],
-                "duration": random.randint(5, 15) * 60
+                "duration": random.randint(5, 15) * 60,
+                "pickups": [{
+                    "location": random.choice(addresses)['coordinate'],
+                } for j in range(3)]
             } for i in range(int(services_n))
         ]
 
         # Start optimization
         print("Optimizing ")
         spinner.start()
+        print(client.optimize)
         optimized_route = client.optimize(vehicles, services, options={'max_wait_time': 300}, synchronous=True)
         spinner.stop()
         # Print optimized route
