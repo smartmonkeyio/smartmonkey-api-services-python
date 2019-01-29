@@ -26,7 +26,7 @@ class PickUp(Serializable):
             "location": LatLng,
             "duration?": int,
             "timewindows?": [list],
-            "size?": [int],
+            "size?": [int]
         }
 
 class Service(Serializable):
