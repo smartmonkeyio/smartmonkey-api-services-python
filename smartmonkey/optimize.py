@@ -13,7 +13,7 @@ from smartmonkey.models import (
 def optimize(client, vehicles, services, reward_region=[], options=None, synchronous=True, callback=None):
     """Launch a Smartmonkey route optimization given a list of vehicles and services.
 
-    This example provides two services and one vehicle to the optimization:
+    This example provides two services and one vehicle to the optimization. The second service has a pickup defined:
 
         vehicles = [
             {
@@ -47,13 +47,19 @@ def optimize(client, vehicles, services, reward_region=[], options=None, synchro
             {
                 "id": "Provide Marshmallows",
                 "location": {"lat": 4.16, "lng": 19.90},
-                "size": [1],
+                "size": [3],
                 "capacity": [10],
                 "timewindows": [[50000, 120400]],
                 "duration": 3600,
                 "reward": 100,
                 "optional": False,
                 "requires": ["marsmallows"],
+                "pickups": [{
+                    "location": {"lat": 4.22, "lng": 20.01},
+                    "duration": 3600,
+                    "timewindows": [[50000, 60000]],
+                    "size": [1],
+                }]
             },
         ]
 
@@ -98,14 +104,14 @@ def optimize(client, vehicles, services, reward_region=[], options=None, synchro
     :type vehicles: list
 
     :param services: A list of dictionaries representing a service. Each
-        service must contain Service Model properties
+        service must contain Service Model properties.
     :type services: list
 
     :param reward_region: A list of dictionaries with all the reward regions,
         must contain 'lat', 'lng', 'radius', and 'reward'. 
     :type reward_region: list
 
-    :param options: Dictionary with optimization configuration options
+    :param options: Dictionary with optimization configuration options.
     :type options: dictionary
 
     :param synchronous: *(default True)* If synchronous is set to True, the request
