@@ -23,6 +23,10 @@ project = u'Smartmonkey API'
 copyright = u'2018, Smartmonkey'
 author = u'Smartmonkey'
 
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../'))
+
 # The short X.Y version
 from smartmonkey import __version__
 version = __version__
