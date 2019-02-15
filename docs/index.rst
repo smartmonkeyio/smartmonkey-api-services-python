@@ -20,7 +20,7 @@ User's Guide
 .. toctree::
    :maxdepth: 1
 
-   index
+   self
    quickstart
    examples
    api
