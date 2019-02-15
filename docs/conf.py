@@ -5,9 +5,7 @@
 # This file does only contain a selection of the most common options. For a
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
-
 # -- Path setup --------------------------------------------------------------
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -15,25 +13,28 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
-
 # -- Project information -----------------------------------------------------
+import os
+import sys
 
-project = u'Smartmonkey API'
 copyright = u'2018, Smartmonkey'
 author = u'Smartmonkey'
 
-import os
-import sys
 sys.path.insert(0, os.path.abspath('../'))
 
 # The short X.Y version
-from smartmonkey import __version__
+from smartmonkey import __version__  # noqa
 version = __version__
 # The full version, including alpha/beta/rc tags
 release = version
 
+project_name = 'smartmonkey-services'
+AUTHOR_NAME = 'SmartMonkey Scalable Computing S.L.'
+COPYRIGHT = '2019, SmartMonkey Scalable Computing S.L.'
 
+
+project = project_name
+copyright = COPYRIGHT
 # -- General configuration ---------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -50,14 +51,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
-    'sphinxtogithub',
 ]
-
-# Sphinx to github config
-sphinx_to_github = True
-sphinx_to_github_verbose = True
-sphinx_to_github_encoding = "utf-8"
-
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['docstemplates']
@@ -113,7 +107,7 @@ html_static_path = []
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
-# html_sidebars = {}
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
@@ -147,3 +141,5 @@ autoclass_content = 'both'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+html_show_sourcelink = False

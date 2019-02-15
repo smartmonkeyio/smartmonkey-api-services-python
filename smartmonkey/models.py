@@ -8,7 +8,11 @@ class LatLng(Serializable):
             "lng": float,
         }
 
+
 class Vehicle(Serializable):
+    """
+
+    """
     class Meta:
         schema = {
             "id": str,
@@ -19,15 +23,17 @@ class Vehicle(Serializable):
             "provides?": [str],
         }
 
-class PickUp(Serializable):
+
+class Pickup(Serializable):
     class Meta:
         schema = {
             "id?": str,
             "location": LatLng,
             "duration?": int,
             "timewindows?": [list],
-            "size?": [int]
+            "size?": [int],
         }
+
 
 class Service(Serializable):
     class Meta:
@@ -40,8 +46,9 @@ class Service(Serializable):
             "reward?": float,
             "optional?": bool,
             "requires?": [str],
-            "pickups?": [PickUp]
+            "pickups?": [Pickup],
         }
+
 
 class RewardRegion(Serializable):
     class Meta:
@@ -52,11 +59,6 @@ class RewardRegion(Serializable):
             "reward": float,
         }
 
-class Options(Serializable):
-    class Meta:
-        schema = {
-            "max_wait_time?": int
-        }
 
 class CallbackConfiguration(Serializable):
     class Meta:
@@ -65,12 +67,19 @@ class CallbackConfiguration(Serializable):
             "callback?": str,
         }
 
+
 class Query:
     def url(self):
-        raise NotImplementedError("'url' function must be implemented in all inheriting classes")
-    
+        raise NotImplementedError(
+            "'url' function must be implemented in all inheriting classes",
+        )
+
     def method(self):
-        raise NotImplementedError("'method' function must be implemented in all 'inheriting classes'")
+        raise NotImplementedError(
+            "'method' function must be implemented " +
+            "in all 'inheriting classes'",
+        )
+
 
 class OptimizeQuery(Serializable, Query):
     class Meta:
@@ -78,31 +87,30 @@ class OptimizeQuery(Serializable, Query):
             "vehicles": [Vehicle],
             "services": [Service],
             "reward_region?": [RewardRegion],
-            "options?": Options,
             "configuration": CallbackConfiguration,
         }
 
-    def __init__(self, vehicles, services, reward_region, options, configuration):
+    def __init__(self, vehicles, services, reward_region, configuration):
         self.vehicles = vehicles
         self.services = services
         self.reward_region = reward_region
-        self.options = options
         self.configuration = configuration
-    
+
     def url(self):
         return '/optimize'
-    
+
     def method(self):
         return 'POST'
+
 
 class ResultQuery(Serializable, Query):
     class Meta:
         schema = {
             "job_id": str,
         }
-    
+
     def url(self):
         return '/optimize'
-    
+
     def method(self):
         return 'GET'
