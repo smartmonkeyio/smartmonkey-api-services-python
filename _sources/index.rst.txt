@@ -4,7 +4,7 @@
 Smartmonkey Services
 ===================================================
 
-Python API library and shell utilities to monitor file system events.
+Python API library for SmartMonkey optimization services
 
 Works on Python 2.7 and 3.4+.
 
